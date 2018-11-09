@@ -12,24 +12,22 @@
     <projectUrl>https://github.com/weaveworks/flux</projectUrl>
     <tags>flux fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Weaveworks Flux</summary>
-    <description>
-    # fluxctl
+    <description># Weaveworks fluxctl
 
-    ## Managing Flux the Command Line
+### Managing Flux from the Command Line
 
-    Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
-    Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
-      It monitors all relevant image repositories, detects new images, triggers deployments and updates the desired running configuration based on that (and a configurable policy).
+Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
+Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
+    It monitors all relevant image repositories, detects new images, triggers deployments and updates the desired running configuration based on that (and a configurable policy).
 
-    ## Additional Documentation
+### Additional Documentation
 
-    More information can be found at the official [Weavworks site](https://www.weave.works/) and [Flux GitHub repository](https://github.com/weaveworks/flux).
-    The following links provide additional documentation on GitOps, Flux.
+More information can be found at the official [Weavworks site](https://www.weave.works/) and [Flux GitHub repository](https://github.com/weaveworks/flux).
+The following links provide additional documentation on GitOps, Flux.
 
-    * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
-    * [WeaveWorks Flux](https://github.com/weaveworks/flux)
-    * [More GitOps Reading](https://www.weave.works/technologies/gitops/)
-    </description>
+* [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
+* [WeaveWorks Flux](https://github.com/weaveworks/flux)
+* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
