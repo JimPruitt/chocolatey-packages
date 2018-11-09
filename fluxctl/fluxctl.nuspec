@@ -4,7 +4,7 @@
   <metadata>
     <id>fluxctl</id>
     <version>1.8.0</version>
-    <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/fluxctl</packageSourceUrl>
+    <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/JimPruitt/chocolatey-packages</projectSourceUrl>
     <owners>Weaveworks,JimPruitt</owners>
     <title>Flux Command Line Interface</title>
