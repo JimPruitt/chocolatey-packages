@@ -6,6 +6,7 @@
     <version>1.8.0</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/JimPruitt/chocolatey-packages</projectSourceUrl>
+    <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>    
     <owners>Weaveworks,JimPruitt</owners>
     <title>Flux Command Line Interface</title>
     <authors>Weaveworks, JimPruitt</authors>
@@ -27,7 +28,9 @@ The following links provide additional documentation on GitOps, Flux.
 
 * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
-* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    </description>
+* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
+    </description>
+     <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
