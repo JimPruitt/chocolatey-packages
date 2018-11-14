@@ -5,11 +5,11 @@
     <id>fluxctl</id>
     <version>1.8.0</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/JimPruitt/chocolatey-packages</projectSourceUrl>
+    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>    
-    <owners>Weaveworks,JimPruitt</owners>
+    <owners>JimPruitt</owners>
     <title>Flux Command Line Interface</title>
-    <authors>Weaveworks, JimPruitt</authors>
+    <authors>Weaveworks</authors>
     <projectUrl>https://github.com/weaveworks/flux</projectUrl>
     <tags>flux fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Weaveworks Flux</summary>
