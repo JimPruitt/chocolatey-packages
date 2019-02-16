@@ -4,11 +4,11 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 The embedded software have been downloaded from the listed download
-location on <https://github.com/weaveworks/flux/releases/tag/1.9.0>
+location on <https://github.com/weaveworks/flux/releases/tag/1.10.1>
 and can be verified by doing the following:
 
 1. Download the following:
-  fluxctl_windows_amd64: <https://github.com/weaveworks/flux/releases/download/1.9.0/fluxctl_windows_amd64>
+  fluxctl_windows_amd64: <https://github.com/weaveworks/flux/releases/download/1.10.1/fluxctl_windows_amd64>
 
 
 2. Get the checksum using one of the following methods:
@@ -18,6 +18,6 @@ and can be verified by doing the following:
 3. The checksums should match the following:
 
   checksum type: sha256
-  checksum: 9241C754EBCF7B52374EF01AF03D19F0933282051159A785A48AD8EB01E05B79
+  checksum: A3EB5BB9BB9DDD5866EDDB7187D24EDB7AA827B44EEB84623744123ECE95A9D2
 
 File 'LICENSE.txt' is obtained from <https://github.com/weaveworks/flux/blob/master/LICENSE>
