@@ -34,6 +34,5 @@ The following links provide additional documentation on GitOps, Flux.
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="legal\**" target="legal" />   
   </files>
 </package>
