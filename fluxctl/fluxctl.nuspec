@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
     <version>1.10.1</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
+    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>    
     <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>    
     <owners>JimPruitt</owners>
     <title>Flux Command Line Interface</title>
@@ -30,7 +30,9 @@ The following links provide additional documentation on GitOps, Flux.
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
 * [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
     </description>
-     <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
+    <docsUrl>https://github.com/weaveworks/flux/tree/master/site</docsUrl>
+    <bugTrackerUrl>https://github.com/weaveworks/flux/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
