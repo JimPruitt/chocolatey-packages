@@ -5,8 +5,8 @@ $toolsDir    = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $xargs = @{
     'PackageName'   ="fluxctl";
     'FileFullPath'  = Join-Path $toolsDir "fluxctl.exe";
-    'Url'           = "https://github.com/weaveworks/flux/releases/download/1.12.1/fluxctl_windows_amd64";
-    'Checksum'      = "8FE04652C49AFDF40680423F73ED4A15D8D2632176AA04DAF00D4ECAFB69DC27";
+    'Url'           = "https://github.com/weaveworks/flux/releases/download/1.12.2/fluxctl_windows_amd64";
+    'Checksum'      = "BA35C2C3762BC7771CD1090AECE4ADDE4212355F49C910789B1D5407AD4830C0";
     'ChecksumType'  = "SHA256"
 }
 
