@@ -26,6 +26,7 @@ Flux is a tool that automatically ensures that the state of a cluster matches yo
 More information can be found at the official [Weavworks site](https://www.weave.works/) and [Flux GitHub repository](https://github.com/weaveworks/flux).
 The following links provide additional documentation on GitOps, Flux.
 
+* [What you need to know about GitOps - Weaveworks Blog](https://www.weave.works/technologies/gitops/)
 * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
 * [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
