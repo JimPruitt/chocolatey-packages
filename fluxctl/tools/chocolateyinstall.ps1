@@ -6,7 +6,7 @@ $xargs = @{
     'PackageName'   ="fluxctl";
     'FileFullPath'  = Join-Path $toolsDir "fluxctl.exe";
     'Url'           = "https://github.com/weaveworks/flux/releases/download/1.16.0/fluxctl_windows_amd64";
-    'Checksum'      = "49A99402D18C95CAB2BAA401499B5982F4DFBF485064476A35454039A2B11153";
+    'Checksum'      = "0FB15E3934E8D824B135F4E158DD89E1BC2A14737E8A10CC79AF5682FF7C8159";
     'ChecksumType'  = "SHA256"
 }
 
