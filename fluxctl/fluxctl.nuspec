@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.16.0</version>
+    <version>1.17.0</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>    
-    <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>    
+    <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
     <title>Flux Command Line Interface</title>
     <authors>Weaveworks</authors>
@@ -31,7 +31,7 @@ The following links provide additional documentation on GitOps, Flux.
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
 * [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
     </description>
-    <docsUrl>https://github.com/weaveworks/flux/tree/master/site</docsUrl>
+    <docsUrl>https://github.com/fluxcd/flux/tree/master</docsUrl>
     <bugTrackerUrl>https://github.com/weaveworks/flux/issues</bugTrackerUrl>
     <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
