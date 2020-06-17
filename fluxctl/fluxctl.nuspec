@@ -3,9 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.18.0</version>
+    <version>1.19.0</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>    
+    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
     <title>Flux Command Line Interface</title>
