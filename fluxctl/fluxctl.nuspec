@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.22.0</version>
+    <version>1.23.0</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
@@ -16,6 +16,7 @@
     <description># Weaveworks fluxctl
 
 ### Managing Flux from the Command Line
+> Notice! [Flux v1 is in maintenance mode](https://github.com/fluxcd/flux/issues/3320). The next iteration of the Flux command line interface (v2) is being renamed to '[flux](https://community.chocolatey.org/packages/flux)'.  Please refer to [this issue for detailed information](https://github.com/fluxcd/flux/issues/3320). 
 
 Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
 Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
@@ -29,7 +30,7 @@ The following links provide additional documentation on GitOps, Flux.
 * [What you need to know about GitOps - Weaveworks Blog](https://www.weave.works/technologies/gitops/)
 * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
-* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
+* [More GitOps Reading](https://www.weave.works/technologies/gitops/)
     </description>
     <docsUrl>https://github.com/fluxcd/flux/tree/master</docsUrl>
     <bugTrackerUrl>https://github.com/weaveworks/flux/issues</bugTrackerUrl>
