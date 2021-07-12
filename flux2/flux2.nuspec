@@ -2,21 +2,20 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>fluxctl</id>
-    <version>1.23.0</version>
-    <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
-    <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
+    <id>flux</id>
+    <version>0.16.1</version>
+    <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/</packageSourceUrl>
+    <projectSourceUrl>https://github.com/fluxcd/flux2</projectSourceUrl>
+    <licenseUrl>https://github.com/fluxcd/flux2/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
     <title>Flux Command Line Interface</title>
     <authors>Weaveworks</authors>
     <projectUrl>https://github.com/weaveworks/flux</projectUrl>
-    <tags>flux fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
+    <tags>flux flux2 fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Weaveworks Flux</summary>
     <description># Weaveworks fluxctl
 
 ### Managing Flux from the Command Line
-> Notice! [Flux v1 is in maintenance mode](https://github.com/fluxcd/flux/issues/3320). The next iteration of the Flux command line interface (v2) is being renamed to '[flux](https://community.chocolatey.org/packages/flux)'.  Please refer to [this issue for detailed information](https://github.com/fluxcd/flux/issues/3320). 
 
 Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
 Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
@@ -30,11 +29,11 @@ The following links provide additional documentation on GitOps, Flux.
 * [What you need to know about GitOps - Weaveworks Blog](https://www.weave.works/technologies/gitops/)
 * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
 * [WeaveWorks Flux](https://github.com/weaveworks/flux)
-* [More GitOps Reading](https://www.weave.works/technologies/gitops/)
+* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
     </description>
-    <docsUrl>https://github.com/fluxcd/flux/tree/master</docsUrl>
-    <bugTrackerUrl>https://github.com/weaveworks/flux/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
+    <docsUrl>https://github.com/fluxcd/flux2/tree/master</docsUrl>
+    <bugTrackerUrl>https://github.com/fluxcd/flux2/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/fluxcd/flux2/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
