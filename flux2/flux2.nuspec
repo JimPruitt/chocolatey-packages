@@ -4,32 +4,43 @@
   <metadata>
     <id>flux</id>
     <version>0.16.1</version>
+    <iconUrl>url_here</iconUrl>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/</packageSourceUrl>
     <projectSourceUrl>https://github.com/fluxcd/flux2</projectSourceUrl>
     <licenseUrl>https://github.com/fluxcd/flux2/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
-    <title>Flux Command Line Interface</title>
-    <authors>Weaveworks</authors>
-    <projectUrl>https://github.com/weaveworks/flux</projectUrl>
+    <title>Flux CLI</title>
+    <authors>Linux Foundation (CNCF)</authors>
+    <projectUrl>https://fluxcd.io/</projectUrl>
     <tags>flux flux2 fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Weaveworks Flux</summary>
-    <description># Weaveworks fluxctl
+    <description># Flux CLI
 
-### Managing Flux from the Command Line
+[Flux](https://fluxcd.io/) is a Continuous Delivery solution for Kubernetes. Flux is constructed with the GitOps Toolkit, a set of composable APIs and specialized tools for keeping Kubernetes clusters in sync with sources of configuration (like Git & Helm repositories), and automating updates to configuration when there is new code to deploy.
 
-Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
-Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
-    It monitors all relevant image repositories, detects new images, triggers deployments and updates the desired running configuration based on that (and a configurable policy).
+Flux is a CNCF incubation project made for:
 
-### Additional Documentation
+* **cluster operators** who automate provision and configuration of clusters
+* **platform engineers** who build continuous delivery for developer teams
+* **app developers** who rely on continuous delivery to get their code live
 
-More information can be found at the official [Weavworks site](https://www.weave.works/) and [Flux GitHub repository](https://github.com/weaveworks/flux).
-The following links provide additional documentation on GitOps, Flux.
+Features:
 
-* [What you need to know about GitOps - Weaveworks Blog](https://www.weave.works/technologies/gitops/)
-* [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
-* [WeaveWorks Flux](https://github.com/weaveworks/flux)
-* [More GitOps Reading](https://www.weave.works/technologies/gitops/)    
+* Source configuration from Git and Helm repositories, and S3-compatible buckets (e.g., Minio)
+* Kustomize and Helm support
+* Event-triggered and periodic reconciliation
+* Integration with Kubernetes RBAC
+* Health assessment (clusters and workloads)
+* Dependency management (infrastructure and workloads)
+* Secrets management (builtin support for Mozilla SOPS and Cloud KMS)
+* Alerting to external systems (webhook senders)
+* External events handling (webhook receivers)
+* Automated container image updates to Git (image scanning and patching)
+* Policy-driven validation (OPA, Kyverno, admission controllers)
+* Seamless integration with Git providers (GitHub, GitLab, Bitbucket)
+* Interoperability with Cluster API (CAPI) providers
+
+For more information please visit https://github.com/fluxcd/flux2.
     </description>
     <docsUrl>https://github.com/fluxcd/flux2/tree/master</docsUrl>
     <bugTrackerUrl>https://github.com/fluxcd/flux2/issues</bugTrackerUrl>
