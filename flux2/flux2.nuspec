@@ -4,7 +4,7 @@
   <metadata>
     <id>flux</id>
     <version>0.16.1</version>
-    <iconUrl>url_here</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/jimpruitt/chocolatey-packages/master/flux2/flux2.png</iconUrl>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/</packageSourceUrl>
     <projectSourceUrl>https://github.com/fluxcd/flux2</projectSourceUrl>
     <licenseUrl>https://github.com/fluxcd/flux2/blob/master/LICENSE</licenseUrl>
@@ -12,11 +12,11 @@
     <title>Flux CLI</title>
     <authors>Linux Foundation (CNCF)</authors>
     <projectUrl>https://fluxcd.io/</projectUrl>
-    <tags>flux flux2 fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
-    <summary>An optional command line interface to be used with Weaveworks Flux</summary>
+    <tags>flux flux2 fluxctl gitops kubernetes devops cli docker containers </tags>
+    <summary>An optional command line interface to be used with Flux</summary>
     <description># Flux CLI
 
-[Flux](https://fluxcd.io/) is a Continuous Delivery solution for Kubernetes. Flux is constructed with the GitOps Toolkit, a set of composable APIs and specialized tools for keeping Kubernetes clusters in sync with sources of configuration (like Git & Helm repositories), and automating updates to configuration when there is new code to deploy.
+[Flux](https://fluxcd.io/) is a Continuous Delivery solution for Kubernetes. Flux is constructed with the GitOps Toolkit, a set of composable APIs and specialized tools for keeping Kubernetes clusters in sync with sources of configuration (like Git and Helm repositories), and automating updates to configuration when there is new code to deploy.
 
 Flux is a CNCF incubation project made for:
 

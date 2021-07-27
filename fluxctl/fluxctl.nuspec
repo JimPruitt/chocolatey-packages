@@ -3,17 +3,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.23.0</version>
+    <version>1.23.1</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
-    <title>Flux Command Line Interface</title>
+    <title>Flux legacy CLI</title>
     <authors>Weaveworks</authors>
     <projectUrl>https://github.com/weaveworks/flux</projectUrl>
-    <tags>flux fluxctl weaveworks gitops kubernetes devops cli docker containers </tags>
-    <summary>An optional command line interface to be used with Weaveworks Flux</summary>
-    <description># Weaveworks fluxctl
+    <tags>flux fluxctl gitops kubernetes devops cli docker containers </tags>
+    <summary>An optional command line interface to be used with Flux</summary>
+    <description># Flux legacy CLI
 
 ### Managing Flux from the Command Line
 > Notice! [Flux v1 is in maintenance mode](https://github.com/fluxcd/flux/issues/3320). The next iteration of the Flux command line interface (v2) is being renamed to '[flux](https://community.chocolatey.org/packages/flux)'.  Please refer to [this issue for detailed information](https://github.com/fluxcd/flux/issues/3320). 
