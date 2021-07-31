@@ -5,12 +5,12 @@
     <id>fluxctl</id>
     <version>1.23.1</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/weaveworks/flux</projectSourceUrl>
-    <licenseUrl>https://github.com/weaveworks/flux/blob/master/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/fluxcd/flux</projectSourceUrl>
+    <licenseUrl>https://github.com/fluxcd/flux/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
     <title>Flux legacy CLI</title>
-    <authors>Weaveworks</authors>
-    <projectUrl>https://github.com/weaveworks/flux</projectUrl>
+    <authors>FluxCD</authors>
+    <projectUrl>https://github.com/fluxcd/flux</projectUrl>
     <tags>flux fluxctl gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Flux</summary>
     <description># Flux legacy CLI
@@ -24,17 +24,16 @@ Flux is a tool that automatically ensures that the state of a cluster matches yo
 
 ### Additional Documentation
 
-More information can be found at the official [Weavworks site](https://www.weave.works/) and [Flux GitHub repository](https://github.com/weaveworks/flux).
+More information can be found at the official [FluxCD site](https://fluxcd.io/) and [Flux GitHub repository](https://github.com/fluxcd/flux).
 The following links provide additional documentation on GitOps, Flux.
 
 * [What you need to know about GitOps - Weaveworks Blog](https://www.weave.works/technologies/gitops/)
 * [GitOps - Operations by Pull Request](https://www.youtube.com/watch?v=BSqE2RqctNs)
-* [WeaveWorks Flux](https://github.com/weaveworks/flux)
-* [More GitOps Reading](https://www.weave.works/technologies/gitops/)
+* [Flux (legacy/v1)](https://github.com/fluxcd/flux)
     </description>
-    <docsUrl>https://github.com/fluxcd/flux/tree/master</docsUrl>
-    <bugTrackerUrl>https://github.com/weaveworks/flux/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/weaveworks/flux/blob/master/CHANGELOG.md</releaseNotes>
+    <docsUrl>https://fluxcd.io/legacy/flux</docsUrl>
+    <bugTrackerUrl>https://github.com/fluxcd/flux/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/fluxcd/flux/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
