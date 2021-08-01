@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/fluxcd/flux/blob/master/LICENSE</licenseUrl>
     <owners>JimPruitt</owners>
     <title>Flux legacy CLI</title>
-    <authors>FluxCD</authors>
+    <authors>Flux project</authors>
     <projectUrl>https://github.com/fluxcd/flux</projectUrl>
     <tags>flux fluxctl gitops kubernetes devops cli docker containers </tags>
     <summary>An optional command line interface to be used with Flux</summary>
