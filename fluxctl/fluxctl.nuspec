@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.24.0</version>
+    <version>1.24.1</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/fluxcd/flux</projectSourceUrl>
     <licenseUrl>https://github.com/fluxcd/flux/blob/master/LICENSE</licenseUrl>
