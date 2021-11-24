@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fluxctl</id>
-    <version>1.24.2</version>
+    <version>1.24.3</version>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/fluxctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/fluxcd/flux</projectSourceUrl>
     <licenseUrl>https://github.com/fluxcd/flux/blob/master/LICENSE</licenseUrl>
@@ -16,7 +16,7 @@
     <description># Flux legacy CLI
 
 ### Managing Flux from the Command Line
-> Notice! [Flux v1 is in maintenance mode](https://github.com/fluxcd/flux/issues/3320). The next iteration of the Flux command line interface (v2) is being renamed to '[flux](https://community.chocolatey.org/packages/flux)'.  Please refer to [this issue for detailed information](https://github.com/fluxcd/flux/issues/3320). 
+&gt; Notice! [Flux v1 is in maintenance mode](https://github.com/fluxcd/flux/issues/3320). The next iteration of the Flux command line interface (v2) is being renamed to '[flux](https://community.chocolatey.org/packages/flux)'.  Please refer to [this issue for detailed information](https://github.com/fluxcd/flux/issues/3320). 
 
 Flux allows you to declaratively define the deployment state of your Kubernetes environment.  Deployements are automated and triggered off of code pushes.
 Flux is a tool that automatically ensures that the state of a cluster matches your specified configuration in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool.
