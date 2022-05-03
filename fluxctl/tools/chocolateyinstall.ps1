@@ -5,8 +5,8 @@ $ErrorActionPreference = 'Stop';
     $xargs = @{
         'PackageName'   ="fluxctl";
         'FileFullPath'  = Join-Path $toolsDir "fluxctl.exe";
-        'Url'           = "https://github.com/weaveworks/flux/releases/download/1.25.0/fluxctl_windows_amd64";
-        'Checksum'      = "FC16F42ADA09E57BB2FD9C5D0FA46AD453D687D2D41ADA77387F313A5A0E2B63";
+        'Url'           = "https://github.com/weaveworks/flux/releases/download/1.25.1/fluxctl_windows_amd64";
+        'Checksum'      = "DCC01461E04896A97C4B9290F4717867FC488EF24932A1C7E7752A979832A7B4";
         'ChecksumType'  = "SHA256"
     }
     
