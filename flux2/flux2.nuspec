@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>flux</id>
-    <version>2.0.0-rc4</version>
+    <version>2.0.0-rc.5</version>
     <iconUrl>https://cdn.statically.io/gh/jimpruitt/chocolatey-packages/master/flux2/flux2.png</iconUrl>
     <packageSourceUrl>https://github.com/JimPruitt/chocolatey-packages/tree/master/</packageSourceUrl>
     <projectSourceUrl>https://github.com/fluxcd/flux2</projectSourceUrl>
