@@ -7,8 +7,8 @@ $ErrorActionPreference = 'Stop';
         'Unziplocation'  = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
         'Url'            = "https://github.com/fluxcd/flux2/releases/download/v2.7.1/flux_2.7.1_windows_386.zip";
         'Url64Bit'       = "https://github.com/fluxcd/flux2/releases/download/v2.7.1/flux_2.7.1_windows_amd64.zip"
-        'Checksum'       = "AC233638641480E8B4913EB0B343A0B3CAAB256C62FABD8A026D0A76D5B222B7";
-        'Checksum64'     = "019C8875722E133FF77FAFF2B2D4CBD1506A1452AAFC3254C32EAB2FFFAAE570"
+        'Checksum'       = "12a98df633eff11ff3af2c7e2404e7e466209b15b7bc16de0bffcf5df685cd84";
+        'Checksum64'     = "9B1DF201AFFB3CFE9F070ED5EE0705BECD42329807DC7A597F28BD7E49BE9A56"
         'ChecksumType'   = "SHA256"
         'ChecksumType64' = "SHA256"
     }
