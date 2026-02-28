@@ -5,10 +5,10 @@ $ErrorActionPreference = 'Stop';
     $xargs = @{
         'PackageName'    ="flux";
         'Unziplocation'  = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
-        'Url'            = "https://github.com/fluxcd/flux2/releases/download/v2.8.0/flux_2.8.0_windows_386.zip";
-        'Url64Bit'       = "https://github.com/fluxcd/flux2/releases/download/v2.8.0/flux_2.8.0_windows_amd64.zip"
-        'Checksum'       = "BA33B4C82EB63063BCCA277A141AC2FBA60763D0CC2B4D6AA72EEF073A345339";
-        'Checksum64'     = "2FCAA7F204D489926A43D557F1134A53097F0FBF8B8AA59F9702272A926DDED0"
+        'Url'            = "https://github.com/fluxcd/flux2/releases/download/v2.8.1/flux_2.8.1_windows_386.zip";
+        'Url64Bit'       = "https://github.com/fluxcd/flux2/releases/download/v2.8.1/flux_2.8.1_windows_amd64.zip"
+        'Checksum'       = "C8E786759E0B6EA8B232C317FF3669A686CCCC12634DA21D137870D94E517926";
+        'Checksum64'     = "657BD35929C81599618D193EDC47255373CF7C11EC54F107E33297603A311A70"
         'ChecksumType'   = "SHA256"
         'ChecksumType64' = "SHA256"
     }
