@@ -1,18 +1,16 @@
-$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop'
 
-    $toolsDir    = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-    
-    $xargs = @{
-        'PackageName'    ="flux";
-        'Unziplocation'  = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
-        'Url'            = "https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_386.zip";
-        'Url64Bit'       = "https://github.com/fluxcd/flux2/releases/download/v2.8.6/flux_2.8.6_windows_amd64.zip"
-        'Checksum'       = "AB38219399DED90881D670DC4CD36052D2CD5C347CD5881EA45084B507ACDD68";
-        'Checksum64'     = "05FE1B414BB40555D72E8149ACA7046EBA4CEACEA7825D011C1188CC74C62E9C"
-        'ChecksumType'   = "SHA256"
-        'ChecksumType64' = "SHA256"
-    }
-    
-    #Download the file from releases
-    Install-ChocolateyZipPackage @xargs
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
+$xargs = @{
+    'PackageName'    = "flux"
+    'UnzipLocation'  = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
+    'Url'            = "https://github.com/fluxcd/flux2/releases/download/v2.8.7/flux_2.8.7_windows_386.zip"
+    'Url64Bit'       = "https://github.com/fluxcd/flux2/releases/download/v2.8.7/flux_2.8.7_windows_amd64.zip"
+    'Checksum'       = "FC93DC0756EC0F10B5B67FCD67307703CB3ABEDA482626743FAFD105ADCF2FE6"
+    'Checksum64'     = "E703C645180D2665269F5643408CD257C2553E2245F5F3AD577EDD1DE2B4092B"
+    'ChecksumType'   = "SHA256"
+    'ChecksumType64' = "SHA256"
+}
+
+Install-ChocolateyZipPackage @xargs
